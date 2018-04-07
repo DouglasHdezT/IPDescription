@@ -170,6 +170,7 @@
                     android:textSize="15sp" />
 
                 <TextView
+                    android:id="@+id/title_redes"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -279,7 +280,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="PARTE RED"
+                        android:text="@string/Ultimo_host"
                         android:textSize="15sp" />
 
                     <TextView

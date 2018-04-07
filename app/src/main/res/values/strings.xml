@@ -4,5 +4,6 @@
     <string name="broadcast_ip">BROADCAST IP</string>
     <string name="red_id">ID DE RED</string>
     <string name="cant_redes">CANT. HOSTS</string>
-    <string name="parte_host">PARTE HOST</string>
+    <string name="parte_host">PRIMER HOST</string>
+    <string name="Ultimo_host">ULTIMO HOST</string>
 </resources>
