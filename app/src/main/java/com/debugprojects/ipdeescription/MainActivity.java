@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }catch (Exception e){
                     Debugg.setTextColor(Debugg.getContext().getResources().getColor(R.color.Error));
-                    Debugg.setText("Error de ingreso...");
+                    Debugg.setText("Error de entrada...");
                 }
 
 
