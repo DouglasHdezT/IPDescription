@@ -87,6 +87,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:inputType="number"
                         android:textSize="24sp" />
 
                 </LinearLayout> <!-- IP Direction -->
@@ -127,7 +128,7 @@
                 android:background="#c2c2c2"
                 android:textColor="#000"
                 android:textIsSelectable="true"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/text_broadcast"
@@ -148,7 +149,7 @@
                 android:background="#c2c2c2"
                 android:textIsSelectable="true"
                 android:textColor="#000"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <LinearLayout
                 android:id="@+id/linear_container4"
@@ -191,7 +192,7 @@
                     android:layout_weight="1"
                     android:background="#c2c2c2"
                     android:textColor="#000"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     android:textIsSelectable="true"
                     android:layout_marginEnd="8dp" />
 
@@ -204,7 +205,7 @@
                     android:textIsSelectable="true"
                     android:background="#c2c2c2"
                     android:textColor="#000"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     android:layout_marginEnd="8dp" />
 
             </LinearLayout> <!-- Contenedor5 -->
@@ -250,7 +251,7 @@
                     android:textIsSelectable="true"
                     android:background="#c2c2c2"
                     android:textColor="#000"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     android:layout_marginEnd="8dp" />
 
                 <TextView
@@ -262,7 +263,7 @@
                     android:textIsSelectable="true"
                     android:background="#c2c2c2"
                     android:textColor="#000"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     android:layout_marginEnd="8dp" />
 
             </LinearLayout> <!-- Contenedor2 -->
@@ -294,7 +295,7 @@
                         android:layout_marginRight="8dp"
                         android:background="#c2c2c2"
                         android:textColor="#000"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textIsSelectable="true"
                         android:layout_marginEnd="8dp" />
 
