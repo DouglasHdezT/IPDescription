@@ -12,7 +12,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/text_title"
@@ -43,13 +43,12 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:inputType="number"
-                        android:numeric="integer"
                         android:textSize="24sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="."
+                        android:text="@string/dot"
                         android:textColor="#000"
                         android:textSize="24sp" />
 
@@ -59,13 +58,12 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:inputType="number"
-                        android:numeric="integer"
                         android:textSize="24sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="."
+                        android:text="@string/dot"
                         android:textColor="#000"
                         android:textSize="24sp" />
 
@@ -75,13 +73,12 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:inputType="number"
-                        android:numeric="integer"
                         android:textSize="24sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="."
+                        android:text="@string/dot"
                         android:textColor="#000"
                         android:textSize="24sp" />
 
@@ -90,8 +87,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:inputType="number"
-                        android:numeric="integer"
                         android:textSize="24sp" />
 
                 </LinearLayout> <!-- IP Direction -->
@@ -99,7 +94,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="/"
+                    android:text="@string/slash"
                     android:textColor="#000"
                     android:textSize="24sp" />
 
@@ -109,7 +104,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:inputType="number"
-                    android:numeric="integer"
                     android:textSize="24sp" />
 
             </LinearLayout>  <!-- IP Direction & Submask-->
@@ -132,7 +126,8 @@
                 android:layout_marginRight="8dp"
                 android:background="#c2c2c2"
                 android:textColor="#000"
-                android:textSize="15sp" />
+                android:textIsSelectable="true"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/text_broadcast"
@@ -151,8 +146,9 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:background="#c2c2c2"
+                android:textIsSelectable="true"
                 android:textColor="#000"
-                android:textSize="15sp" />
+                android:textSize="24sp" />
 
             <LinearLayout
                 android:id="@+id/linear_container4"
@@ -166,7 +162,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="CLASE DE RED"
+                    android:text="@string/text_clase_de_red"
                     android:textSize="15sp" />
 
                 <TextView
@@ -174,7 +170,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="CANT. REDES"
+                    android:text="@string/text_cant_redes"
                     android:textSize="15sp" />
 
             </LinearLayout> <!-- Contenedor4 -->
@@ -195,7 +191,9 @@
                     android:layout_weight="1"
                     android:background="#c2c2c2"
                     android:textColor="#000"
-                    android:textSize="15sp" />
+                    android:textSize="24sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginEnd="8dp" />
 
                 <TextView
                     android:id="@+id/edit_cant_redes"
@@ -203,9 +201,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:textIsSelectable="true"
                     android:background="#c2c2c2"
                     android:textColor="#000"
-                    android:textSize="15sp" />
+                    android:textSize="24sp"
+                    android:layout_marginEnd="8dp" />
 
             </LinearLayout> <!-- Contenedor5 -->
 
@@ -247,9 +247,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:textIsSelectable="true"
                     android:background="#c2c2c2"
                     android:textColor="#000"
-                    android:textSize="15sp" />
+                    android:textSize="24sp"
+                    android:layout_marginEnd="8dp" />
 
                 <TextView
                     android:id="@+id/edit_parte_host"
@@ -257,9 +259,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:textIsSelectable="true"
                     android:background="#c2c2c2"
                     android:textColor="#000"
-                    android:textSize="15sp" />
+                    android:textSize="24sp"
+                    android:layout_marginEnd="8dp" />
 
             </LinearLayout> <!-- Contenedor2 -->
 
@@ -290,7 +294,9 @@
                         android:layout_marginRight="8dp"
                         android:background="#c2c2c2"
                         android:textColor="#000"
-                        android:textSize="15sp" />
+                        android:textSize="24sp"
+                        android:textIsSelectable="true"
+                        android:layout_marginEnd="8dp" />
 
                 </LinearLayout>
 

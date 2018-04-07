@@ -6,4 +6,8 @@
     <string name="cant_redes">CANT. HOSTS</string>
     <string name="parte_host">PRIMER HOST</string>
     <string name="Ultimo_host">ULTIMO HOST</string>
+    <string name="dot">.</string>
+    <string name="slash">/</string>
+    <string name="text_clase_de_red">CLASE DE RED</string>
+    <string name="text_cant_redes">CANT. REDES</string>
 </resources>
